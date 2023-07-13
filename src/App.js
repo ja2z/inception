@@ -44,7 +44,7 @@ function App() {
   }, [config, sigmaData]);
 
   return (
-     <iframe width="100%" height="2000" src={url}/>
+     <iframe title="sigmaAppEmbedFrame" width="100%" height="2000" src={url}/>
   );
 }
 
